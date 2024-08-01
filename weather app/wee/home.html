@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>weatherapp</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="weve-one"></div>
+      <div class="weve-two"></div>
+      <div class="weve-three"></div>
+
+      <div id="weathercon">
+        <i class="fa-solid fa-sun"></i>
+      </div>
+
+      <div class="info">
+        <h2 class="location">{%tempcity%},{%tempcountry%}</h2>
+        <p id="date">wed|OCT 20 |10.49PM</p>
+
+        <p id="temp">{%tempval%}</p>
+      </div>
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
